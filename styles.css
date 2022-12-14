@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+section{
+    height:600px;
+    width:600px;
+    border:20px solid black;
+}
+
+aside{
+    height:600px;
+    width:600px;
+    border:20px solid green;
+}
+}
