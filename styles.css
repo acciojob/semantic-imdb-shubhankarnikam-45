@@ -1,14 +1,81 @@
 
-/* Your CSS Code here. */
-section{
-    height:600px;
-    width:600px;
-    border:20px solid black;
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.main-container{
+    max-width: 1200px;
+    min-width: 1200px;
+    border:1px solid white;
+    margin:auto;
+}
+.header-content{
+    text-align: center;
+    height: 70px;
+    max-width: 1200px;
+    color:white;
+    background-color: black;
+    margin:auto;
+    border-bottom: 1px solid white;
 }
 
-aside{
-    height:600px;
-    width:600px;
-    border:20px solid green;
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    height:52px;
+    color:white;
+    background-color: black;
 }
+
+.section-and-aside-area{
+    margin-top:25px;
+    border:1px solid white;
+}
+.inner-contet{
+    display:flex;
+    justify-content: space-between;
+}
+.inner-contet .left-section{
+    border:1px solid white;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    width:60%;
+}
+
+
+.left-section .section-1, .section-2{
+    border:1px solid white;
+    padding:52px;
+}
+.inner-contet .right-aside{
+    border:1px solid white;
+    color:white;
+    width:40%;
+}
+
+.right-aside h1{
+    text-align: center;
+    padding:52px;
+}
+footer div{
+    color:white;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.summary{
+    border:1px solid white;
+    color:white;
+    height:100px;
+    padding:5px;
+}
+a{
+    text-decoration: none;
+    color:white
 }
